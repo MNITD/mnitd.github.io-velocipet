@@ -1,0 +1,197 @@
+html,
+body {
+    height: 100%;
+    font-size: 10px;
+    margin: 0;
+}
+
+body {
+    /*    overflow-x: hidden;*/
+    /*    overflow-y: scroll;*/
+}
+
+header {
+    height: 7.5rem;
+    width: 98.718884%;
+    background-color: white;
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.25);
+    /*0px 1px 4px 2px*/
+    position: fixed;
+    z-index: 1;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.container {
+    height: inherit;
+    padding: 0 13.4%;
+}
+
+.logo {
+    margin-left: 4.3rem;
+    display: inline-block;
+}
+
+.logo span {
+    font-size: 3.7rem;
+}
+
+.logo-font-family {
+    font-family: wfont_9515ae_7a11838e382045818ac79eb871b8e14d, wf_7a11838e382045818ac79eb87, orig_lobster;
+}
+
+.navbar {
+    height: 100%;
+    margin-right: 4.3rem;
+    float: right;
+    vertical-align: middle;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    height: 5rem;
+    padding: 0 2rem;
+    margin: 0 1rem;
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.tab-main:hover ul {
+    display: block;
+}
+
+.tab-main:hover ul .s3repeaterButtonlabelNested {
+    color: #2F2E2E;
+}
+
+.tab-main ul .s3repeaterButtonNested:hover .s3repeaterButtonlabelNested {
+    color: #CCCCCC;
+}
+
+.tab-main ul {
+    margin-top: -.4rem;
+    margin-left: -2rem;
+    position: absolute;
+    display: none;
+}
+
+.tab-main ul li {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#section-top {
+    padding-top: 7.5rem;
+}
+
+
+/*
+----------------------Other----------------------
+*/
+
+.flex-container {
+    display: flex;
+}
+
+.vertical-center {
+    align-items: center;
+}
+
+.border-r5 {
+    border-radius: .5rem;
+}
+
+
+/*
+----------------------Parallax----------------------
+*/
+
+.parallax {
+    /*  perspective: 1px;*/
+    perspective: 1px;
+    /*  height: 100vh;*/
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    /*    overflow-y: hidden;*/
+    overflow-y: auto;
+    /*    z-index: -1;*/
+    position: relative;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.parallax__layer--base {
+    transform: translateZ(0);
+}
+
+.parallax__layer--back {
+    transform: translateZ(-9px) scale(10);
+}
+
+
+/*
+----------------------Background----------------------
+*/
+
+.background-container {
+    height: 220%;
+    width: 100%;
+    margin-left: -6%;
+    /*    padding-top: 9.5rem;*/
+    /*      margin-bottom: -30%;*/
+    position: fixed;
+    z-index: -1;
+}
+
+.background-gradient {
+    height: 100%;
+    width: 100%;
+    /*    margin-top: -75%;*/
+    /*  
+/*    margin-left: -250%;*/
+    background-color: rgba(48, 189, 255, 1);
+    z-index: -1
+}
+
+.background-img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.67;
+    /*    background-attachment: fixed;*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/bg-img.webp);
+    /*    transform: translate3d(0px, 0px, 0px);*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    z-index: -1
+}
+
+.bg-yellow {
+    background-color: rgba(255, 242, 0, 1);
+}
+
+
+/*
+ ----------------------Typography----------------------
+*/
+
+h2 {}

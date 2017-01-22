@@ -116,16 +116,11 @@ ul {
 */
 
 .parallax {
-    /*  perspective: 1px;*/
     perspective: 1px;
-    /*  height: 100vh;*/
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    /*    overflow-y: hidden;*/
     overflow-y: auto;
-    /*    z-index: -1;*/
-/*    position: relative;*/
 }
 
 .parallax__layer {
@@ -150,11 +145,9 @@ ul {
 */
 
 .background-container {
-    height: 220%;
+    height: 220%;/*220%;*/
     width: 100%;
     margin-left: -6%;
-    /*    padding-top: 9.5rem;*/
-    /*      margin-bottom: -30%;*/
     position: fixed;
     z-index: -1;
 }
@@ -162,9 +155,6 @@ ul {
 .background-gradient {
     height: 100%;
     width: 100%;
-    /*    margin-top: -75%;*/
-    /*  
-/*    margin-left: -250%;*/
     background-color: rgba(48, 189, 255, 1);
     z-index: -1
 }
@@ -177,7 +167,7 @@ ul {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url(../img/bg-img.webp);
+    background-image: url(../img/bg-img.jpg);
     /*    transform: translate3d(0px, 0px, 0px);*/
     /*    position: absolute;*/
     /*    top: 0;*/
